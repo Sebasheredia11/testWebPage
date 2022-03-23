@@ -1,0 +1,26 @@
+.containerAdvertising{
+    width: 100%;
+    height: 163px;
+    background-color: $gray-neutral-50;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1640px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--description{
+        font-family: $source-sans-pro;
+        font-size: 10px;
+        font-weight: 400;
+        padding-top: 10px;
+        color: $gray-neutral-300;
+    }
+
+    img{
+        width: 80%;
+        height: 50%;
+        
+    }
+}

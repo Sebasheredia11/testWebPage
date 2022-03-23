@@ -1,0 +1,16 @@
+// Media quieria para tablets de 768 para abajo
+
+@mixin tablet{
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+// Media querie para moviles desde 435 para abajo
+
+@mixin mobile{
+    @media (max-width: 435px){
+        @content;
+    }
+}
+

@@ -1,0 +1,73 @@
+.faqsContainer{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 100px;
+
+    &__content{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        @include tablet{
+            gap: 0px;
+        }
+    }
+
+    &__item{
+        &--accordion {
+            background-color: $white;
+            color: $gray-neutral-1000;
+            font-family: $source-sans-pro;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            transition: 0.4s;
+            border-bottom: 1px dashed $gray-neutral-1000;
+            margin-bottom: 20px;
+        }
+
+        &--panel {
+            padding: 0 18px;
+            font-family: $source-sans-pro;
+            font-weight: 400;
+            font-size: 16px;
+            display: none;
+            background-color: white;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .active{
+            background-color: white;
+        }
+        
+    }
+    
+
+    &--title{
+        font-family: $source-sans-pro;
+        font-size: 20px;
+        font-weight: bold;
+        color: $gray-neutral-1000;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+}
+
+
+  
+  

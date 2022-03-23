@@ -1,0 +1,107 @@
+.contact{
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 100px;
+
+    .contact__container{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include tablet{
+            width: 100%;
+        }
+    }
+
+
+    &--title{
+        font-family: $source-sans-pro;
+        font-size: 20px;
+        font-weight: bold;
+        color: $gray-neutral-1000;
+        text-align: center;
+    }
+
+    &--description{
+        font-family: $source-merriweather;
+        font-size: 16px;
+        font-weight: 400;
+        color: $gray-neutral-1000;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+      
+    input{
+        background-color: $white; 
+        width: 380px; 
+        height: 56px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: $gray-neutral-1000;
+        margin-top: 10px;  
+        padding-left: 20px;
+        margin-bottom: 20px; 
+        font-family: $source-sans-pro;
+        font-size: 16px;
+        font-weight: 400;
+
+        @include tablet{
+            width: 300px;
+        }
+      }
+      
+      
+    textarea{
+        background-color: #fbfbfb; 
+        width: 380px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: $gray-neutral-1000; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+        font-family: $source-sans-pro;
+        font-size: 16px;
+        font-weight: 400;
+        @include tablet{
+            width: 300px;
+        }
+    }
+ 
+    button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: $gray-neutral-600; 
+        border: none;
+        list-style: none;
+        border-radius: 4px;  
+        width: 380px;   
+        cursor: pointer;
+
+        p{
+            color: $white; 
+            font-family: $source-sans-pro;
+            font-weight: bold;
+            font-family: 18px;
+        }
+
+        @include tablet{
+            width: 300px;
+        }
+    }  
+}

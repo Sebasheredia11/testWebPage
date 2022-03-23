@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@400;500;600;700;800;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Red+Hat+Display:wght@400;500;600;700;800;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+@import "lib/variables";
+@import "lib/mixins";
+@import "lib/globals";
+
+
+// Main Files
+@import "lib/home/header-index";
+@import "lib/home/articles-index";
+@import "lib/home/advertising-index";
+@import "lib/home/faqs-index";
+@import "lib/home/contact-index";
+@import "lib/home/testimonials-index";
+@import "lib/home/newsletter-index";
+@import "lib/home/footer-index";

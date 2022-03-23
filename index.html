@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Prueba Aplicación"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Web | Prueba</title>
+    <link rel="stylesheet" href="/src/scss/main.css">
+    <link rel="shortcut icon" href="/src/assets/icons/iconfavi.svg" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <nav>
+            <div class="header__nav">
+                <button onclick="showMenu()" id="buttonOpen" class="header__nav--menu">
+                    <img src="/src/assets/icons/burguer.svg" alt="Burguer Icon">
+                </button>
+                <button onclick="hideMenu()" id="buttonOff" class="header__nav--menu" style="display: none;">
+                    <img src="/src/assets/icons/closemenu.svg" alt="Burguer Icon">
+                </button>
+
+                <a href="#" class="header__nav--logo">
+                    <img src="/src/assets/icons/logo.svg" alt="Logo Icon">
+                </a>
+                <button  onclick="showMenu()"  class="header__nav--search">
+                    <img src="/src/assets/icons/search.svg" alt="Search Icon">
+                </button>
+            </div>
+            <div class="header__menu" id="menuBurguer" >
+                <form action="">
+                    <input type="text" placeholder="Buscar">
+                    <button>
+                        <img src="src/assets/icons/searchButtonWhite.svg" alt="Search Img">
+                    </button>
+                </form>
+
+                <div class="header__list">
+                    <h6>Embarazo</h6>
+                    <hr>
+                    <ul>
+                        <a href="#"><li>Quiero Ser mama</li></a>
+                        <a href="#"><li>Voy a ser mama</li></a>
+                        <a href="#"><li>Parto</li></a>
+                    </ul>
+                    <h6>Embarazo</h6>
+                    <hr>
+                    <ul>
+                        <a href="#"><li>Aprende a ser mama</li></a>
+                        <a href="#"><li>Educacion para bebes</li></a>
+                        <a href="#"><li>Educacion para niños</li></a>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
+       
+
+        
+        <section class="containerHero">
+            <div class="containerHero__slider">
+                <section class="containerHero__slider--item">
+                    <div>
+                        <h1 class="h2">Su viaje de <span class="pink"> salud emocional </span> empieza aqui</h1>
+                        <h6>Conoce nuestros profesionales con licencia</h6>
+                        <p>Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad.</p>
+                    </div>
+                    
+    
+                </section>
+                <section class="containerHero__slider--item">
+                    <div>
+                        <h1 class="h2">Su viaje de <span class="pink"> salud emocional </span> empieza aqui</h1>
+                        <h6>Conoce nuestros profesionales con licencia</h6>
+                        <p>Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad.</p>
+                    </div>
+                   
+    
+                </section>
+            <section class="containerHero__slider--item">
+                <div>
+                    <h1 class="h2">Su viaje de <span class="pink"> salud emocional </span> empieza aqui</h1>
+                    <h6>Conoce nuestros profesionales con licencia</h6>
+                    <p>Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad.</p>
+                </div>
+               
+    
+            </section>
+            <section class="containerHero__slider--item">
+                <div>
+                    <h1 class="h2">Su viaje de <span class="pink"> salud emocional </span> empieza aqui</h1>
+                    <h6>Conoce nuestros profesionales con licencia</h6>
+                        <p>Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad.</p>
+                </div>
+            </section>
+        </div>
+        </section>
+    </header>
+
+    <!-- Main Page-->
+    <main>
+
+        <!-- Articles Section -->
+        <section class="articleContainer">
+            <article class="grid-item tall"> 
+                <img class="articleContainer__tall--img" src="/src/assets/images/article-image.png" alt="Image Article">
+                <span class="articleContainer__tall--category">Lorem</span>
+                <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+            </article>
+            <div class="grid-item tall">
+                <article class="grid-item tall"> 
+                    <img class="articleContainer__tall--img" src="/src/assets/images/article-image.png" alt="Image Article">
+                    <span class="articleContainer__tall--category">Lorem</span>
+                    <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                    <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                </article>
+            </div>
+            <div class="grid-item tall">
+                <article class="grid-item tall"> 
+                    <img class="articleContainer__tall--img" src="/src/assets/images/article-image.png" alt="Image Article">
+                    <span class="articleContainer__tall--category">Lorem</span>
+                    <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                    <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                </article>
+            </div>
+            <div class="grid-item tall">
+                <article class="grid-item tall"> 
+                    <img class="articleContainer__tall--img" src="/src/assets/images/article-image.png" alt="Image Article">
+                    <span class="articleContainer__tall--category">Lorem</span>
+                    <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                    <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                </article>
+            </div>
+            <div class="grid-item wide">
+                <article class="grid-item tall"> 
+                    <img class="articleContainer__tall--img ee" src="/src/assets/images/article-image.png" alt="Image Article">
+                    <span class="articleContainer__tall--category">Lorem</span>
+                    <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                    <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                </article>
+            </div>
+            <div class="grid-item wide">
+                <article class="grid-item tall"> 
+                    <img class="articleContainer__tall--img" src="/src/assets/images/article-image.png" alt="Image Article">
+                    <span class="articleContainer__tall--category">Lorem</span>
+                    <h6 class="articleContainer__tall--title">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </h6>
+                    <p class="articleContainer__tall--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Adevertising Section -->
+
+        <section class="containerAdvertising">
+            <img src="/src/assets/images/image-adv.png" alt="Image Advertising">
+            <span class="containerAdvertising--description" >Advertising</span>
+        </section>
+
+        <!-- Faqs Section -->
+
+        <section class="faqsContainer">
+            <h6 class="faqsContainer--title">
+                FAQS
+            </h6>
+
+            <section class="faqsContainer__content">
+                 <div>
+                    <div class="faqsContainer__item">
+                        <button class="faqsContainer__item--accordion">¿Cupidatat aliqua dolore sunt laborum elit?</button>
+                        <div class="faqsContainer__item--panel">
+                            <p>Lorem cupidatat aliqua dolore sunt laborum elit. </p>
+                        </div>
+                    </div>
+
+                    <div class="faqsContainer__item">
+                        <button class="faqsContainer__item--accordion">¿Cupidatat aliqua dolore sunt laborum elit?</button>
+                        <div class="faqsContainer__item--panel">
+                            <p>Lorem cupidatat aliqua dolore sunt laborum elit. </p>
+                        </div>
+                    </div>
+                 </div>
+
+                <div>
+                    <div class="faqsContainer__item">
+                        <button class="faqsContainer__item--accordion">¿Cupidatat aliqua dolore sunt laborum elit?</button>
+                        <div class="faqsContainer__item--panel">
+                            <p>Lorem cupidatat aliqua dolore sunt laborum elit. </p>
+                        </div>
+                    </div>
+
+                    <div class="faqsContainer__item">
+                        <button class="faqsContainer__item--accordion">¿Cupidatat aliqua dolore sunt laborum elit?</button>
+                        <div class="faqsContainer__item--panel">
+                            <p>Lorem cupidatat aliqua dolore sunt laborum elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Form Contact Section -->
+
+        <section class="contact">
+            <h6 class="contact--title">
+                Contacto
+            </h6>
+            <p class="contact--description">
+                No dudes en contactarnos si tienes alguna pregunta    
+            </p>
+
+            <form class="contact__container">       
+                <label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre">
+                </label>
+              
+                <label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Correo">
+                </label>
+            
+                <label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Telefono">
+                </label>    
+              
+                <label>                   
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Mensaje"></textarea> 
+                </label>  
+                <button onclick="sendAlert()"><p>Enviar</p></button>
+          </form>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonials__container">
+                <div class="testimonials__slides fade">
+                    <div class="testimonials__item">
+                        <h6 class="testimonials__item--title">Testimonios</h6> 
+                        <img class="testimonials__item--icon" src="/src/assets/icons/comillas-img.svg" alt="Comilla Imagen">
+                        <p class="testimonials__item--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </p>
+                        <h6 class="testimonials__item--author"> ~ Maria Montessori ~</h6>
+                    </div>  
+                </div>
+        
+                <div class="testimonials__slides fade">
+                    <div class="testimonials__item">
+                        <h6 class="testimonials__item--title">Testimonios</h6> 
+                        <img class="testimonials__item--icon" src="/src/assets/icons/comillas-img.svg" alt="Comilla Imagen">
+                        <p class="testimonials__item--description">Aliqua dolore sunt laborum elit. Nulla sit laborum cupidatat aliqua dolore sunt laborum elit,  </p>
+                        <h6 class="testimonials__item--author"> ~ Carlos Gonzales ~</h6>
+                    </div>  
+                </div>
+        
+                <div class="testimonials__slides fade">
+                    <div class="testimonials__item">
+                        <h6 class="testimonials__item--title">Testimonios</h6> 
+                        <img class="testimonials__item--icon" src="/src/assets/icons/comillas-img.svg" alt="Comilla Imagen">
+                        <p class="testimonials__item--description">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. Nulla sit laborum cupidatat aliqua dolore sunt laborum elit. </p>
+                        <h6 class="testimonials__item--author"> ~ Daniel Ramirez ~</h6>
+                    </div>  
+                </div>
+        
+                <a class="prev" href="#" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" href="#"  onclick="plusSlides(1)">&#10095;</a>
+        
+            </div>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            
+            <div class="newsletter__container">
+                <div class="newsletter__imgContainer">
+                    <img src="/src/assets/images/newsletter-image.png" alt="">
+                </div>
+
+                <div class="newsletter__inputContainer">
+                    <h6 class="newsletter__inputContainer--title">Newsletter</h6>
+                    <p class="newsletter__inputContainer--subtitle">Nulla sit laborum cupidatat aliqua dolore sunt laborum elit.  </p>
+                    <div class="newsletter__item">
+                        <input type="text" placeholder="Correo">
+                        <button onclick="sendAlertNewsletter()" >Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="footerContainer">
+                <div class="footerContainer__firstSection">
+                    <img src="/src/assets/icons/footerlogo.svg" alt="">
+                    <p>La Mente es Maravillosa is a property of Grupo MContigo 2012  2020. All rights reserved.
+                        Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le recomendamos que contacte con su especialista de confianza.
+                    </p>
+                </div>
+                <!-- <hr> -->
+
+                <img class="footerContainer--separator" src="/src/assets/icons/Separator.svg" alt="">
+                <div class="footerContainer__list">
+                    <ul>
+                        <a href="#"><li>Política de Cookies</li></a>
+                        <a href="#"><li>Política de Privacidad</li></a>
+                        <a href="#"><li>Términos y condiciones de uso</li></a>
+                        <a href="#"><li>Cláusula Informativa de Consentimiento</li></a>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+
+       
+
+
+    </main>
+    <script src="/src/index.js"></script>
+</body>
+</html>
